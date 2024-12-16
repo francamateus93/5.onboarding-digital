@@ -1,11 +1,12 @@
-import React from "react"
+import React from "react";
 
-function Card({title, description, onNext}) {
+function Card({title, description, background, onNext}) {
   return (
-    <div>
-      <h2>{title}</h2>
-      <p>{description}</p>
-      <button onClick={onNext}>Next</button>
+    <div className="container">
+      <img src={background} alt="img-card" />
+      <h2 className="title-card">{title}</h2>
+      <p className="description-card">{description}</p>
+      <button className="btn-card" onClick={onNext}>&#8594;</button>
     </div>
   )
 }

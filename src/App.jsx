@@ -30,9 +30,14 @@ function App() {
     const [step, setStep] = useState(0);
     const data = tutorialData[step];
 
-    // Incrementa el Step
+    // Permite avanzar
     const nextStep = () => {
       setStep(step => step + 1)
+    }
+
+    // Permite retroceder
+    const prevStep = () => {
+      setStep(step => step - 1)
     }
     
   return (
@@ -42,7 +47,8 @@ function App() {
         backgroundColor={data.backgroundColor}
         title={data.title}
         description={data.description}
-        onNext={nextStep}/>
+        onNext={nextStep}
+        prevStep={prevStep}/>
     </div>
   )
 }

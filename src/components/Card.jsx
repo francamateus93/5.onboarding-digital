@@ -1,6 +1,6 @@
 import React from "react";
 
-function Card({title, description, image, backgroundColor, onNext}) {
+function Card({title, description, image, backgroundColor, onNext, prevStep}) {
   return (
     <>
     <div className="container">
@@ -11,6 +11,7 @@ function Card({title, description, image, backgroundColor, onNext}) {
         <h2 className="title-card">{title}</h2>
         <p className="description-card">{description}</p>
       <div className="btn-container">
+        <button className="btn-card-prev" onClick={prevStep}>&#8592;</button>
         <button className="btn-card" onClick={onNext}>&#8594;</button>
         </div>
       </div>

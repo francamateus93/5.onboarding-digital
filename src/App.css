@@ -48,13 +48,15 @@ body {
 .btn-container {
   display: flex;
   gap: 0.6rem;
-  justify-content: end;
+  justify-content: space-between;
+  padding: 0 0.5rem;
 }
 
 .btn-next {
   background-color: rgb(33, 33, 33);
   border-radius: 50px;
   width: 50px;
+  padding: 1rem;
   color: white;
   font-weight: 800;
   border: none;
@@ -75,14 +77,32 @@ body {
   font-weight: 800;
   padding: 1rem;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  transition: border 0.3s ease;
 }
 
 .btn-prev:hover {
-  border: 2px solid white;
-  background-color: rgba(55, 55, 55, 0.2);
+  border: 2px solid rgb(0, 0, 0);
 }
+
+.indicators {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: start;
+}
+
+.indicator {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background-color: #777;
+  transition: background-color 0.5s ease;
+}
+
+.indicator:active {
+  background-color: black;
+}
+
+/* -----------MEDIA QUERIES------------- */
 
 /* Movil hasta 768px */
 @media screen and (max-width: 767px){

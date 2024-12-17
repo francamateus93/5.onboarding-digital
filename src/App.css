@@ -64,11 +64,6 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.btn-next:hover {
-  border: none;
-  background-color: #373737;
-}
-
 .btn-prev {
   border-radius: 50px;
   background-color: white;

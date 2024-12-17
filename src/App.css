@@ -51,22 +51,23 @@ body {
   justify-content: end;
 }
 
-.btn-card {
+.btn-next {
   background-color: rgb(33, 33, 33);
   border-radius: 50px;
+  width: 50px;
   color: white;
   font-weight: 800;
-  padding: 1rem;
+  border: none;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.3s ease;
 }
 
-.btn-card:hover {
-  border: 1px solid #373737;
+.btn-next:hover {
+  border: none;
   background-color: #373737;
 }
 
-.btn-card-prev {
+.btn-prev {
   border-radius: 50px;
   background-color: white;
   border: 2px solid;
@@ -74,11 +75,13 @@ body {
   font-weight: 800;
   padding: 1rem;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.3s ease;
+  transition: border 0.3s ease;
 }
 
-.btn-card-prev:hover {
-  border: 2px solid #373737;
+.btn-prev:hover {
+  border: 2px solid white;
+  background-color: rgba(55, 55, 55, 0.2);
 }
 
 /* Movil hasta 768px */
@@ -102,11 +105,12 @@ body {
     padding: 1rem;
   }
 
-  .btn-card {
+  .btn-next {
     padding: 0.8rem;
   }
 }
 
+/* Tablet */
 @media screen and (min-width: 768px) {
   .container {
     height: 680px;
@@ -122,11 +126,12 @@ body {
     padding: 1rem 1.5rem;
   }
 
-  .btn-card {
+  .btn-next {
     padding: 1rem;
   }
 }
 
+/* Notebook */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .container {
     height: 600px;
@@ -147,7 +152,7 @@ body {
     padding: 1rem 1.5rem;
   }
 
-  .btn-card {
+  .btn-next {
     padding: 1rem;
   }
 }

@@ -26,18 +26,22 @@ function App() {
        },
     ];
 
+    // Actualiza la visibilidade de los btns
+    const [showButton, setButton] = useState(true);
+    const visibilityButton = () => {setButton(prev => !prev)}
+
     // Actualiza el status
     const [step, setStep] = useState(0);
     const data = tutorialData[step];
 
     // Permite avanzar
     const nextStep = () => {
-      setStep(step => step + 1)
+      setStep(step => (step + 1) % tutorialData.length)
     }
 
     // Permite retroceder
     const prevStep = () => {
-      setStep(step => step - 1)
+      setStep(step => (step - 1) % tutorialData.length)
     }
     
   return (
@@ -48,9 +52,12 @@ function App() {
         title={data.title}
         description={data.description}
         onNext={nextStep}
-        prevStep={prevStep}/>
+        prevStep={prevStep}
+        step={step}
+        allSteps={tutorialData.length}
+      />
     </div>
-  )
+  );
 }
 
 export default App

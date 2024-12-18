@@ -1,7 +1,8 @@
 import React from "react";
 import Indicators from "./Indicators";
 
-function Card({title, description, image, backgroundColor, onNext, prevStep, step, allSteps, tutorialData}) {
+function Card({title, description, image, backgroundColor, onNext, prevStep, step, allSteps, tutorialData, indicatorClick}) {
+
   return (
     <>
     <div className="container">
@@ -12,7 +13,7 @@ function Card({title, description, image, backgroundColor, onNext, prevStep, ste
         <h2 className="title-card">{title}</h2>
         <p className="description-card">{description}</p>
       <div className="btn-container">
-        <Indicators tutorialData={tutorialData} step={step} /> 
+        <Indicators tutorialData={tutorialData} step={step} indicatorClick={indicatorClick} /> 
         <div className="btn-container">
           {(step > 0) && (<button className="btn-prev" onClick={prevStep}>&#8592;</button>)}
           {(step < allSteps - 1) && (<button className="btn-next" onClick={onNext}>&#8594;</button>)}

@@ -42,6 +42,11 @@ function App() {
     const prevStep = () => {
       setStep(step => (step - 1 + tutorialData.length) % tutorialData.length)
     }
+
+    // Cambiar card con click en Indicators
+    const indicatorClick = (id) => {
+      setStep(id - 1)
+    }
     
   return (
     <div>
@@ -55,6 +60,7 @@ function App() {
         step={step}
         allSteps={tutorialData.length}
         tutorialData={tutorialData}
+        indicatorClick={indicatorClick}
       />
     </div>
   );

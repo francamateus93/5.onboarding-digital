@@ -2,9 +2,9 @@
 
 **📄 Descripción**
 
-Este proyecto es una aplicación interactiva que muestra un conjunto de tutoriales con un indicador visual de progreso. Los usuarios pueden avanzar, retroceder y seleccionar pasos específicos mediante un sistema de bolitas clicables.
+Este proyecto es una aplicación interactiva construida con React, diseñada para guiar a los usuarios paso a paso a través de diferentes conceptos. Los usuarios pueden avanzar, retroceder y seleccionar pasos específicos mediante un sistema clicables. Los pasos están representados en tarjetas dinámicas con indicadores que resaltan el progreso actual y permiten una navegación fluida.
 
-# Características Principales
+**📄 Características Principales**
 
 - Navegación entre pasos: Botones para avanzar y retroceder.
 - Indicador visual: Bolitas que representan los pasos del tutorial.

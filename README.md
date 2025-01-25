@@ -9,7 +9,7 @@ This project is an interactive application built with React, designed to guide u
 - Interactivity: Selection of steps by clicking on the dots.
 - Responsiveness: Adaptable design for mobile devices and tablets.
 
-## 💻 Tecnologías Utilizadas
+## 💻 Technologies
 
 - React: Library for building user interfaces.
 - Styled Components: Library for applying styles to React components.
@@ -21,18 +21,9 @@ This project is an interactive application built with React, designed to guide u
 
 To run this project, you need to have installed:
 
-- `Node.js` (version 14 or higher): JavaScript runtime environment.
+- `Node.js` (version 16 or higher): JavaScript runtime environment.
 - `npm o yarn`: Package managers for installing dependencies.
 - `Vite`: Already configured as part of the project, but requires Node.js to function.
-
-## 🛠️ Installation
-
-Install my-project with npm:
-
-```bash
-  npm install 5.onboarding-digital
-  cd 5.onboarding-digital
-```
 
 ## ▶️ Run Locally
 
@@ -60,7 +51,16 @@ Start the server
   npm run dev / npm run start
 ```
 
-## 📘 Acknowledgements
+## 🛠️ Installation
+
+Install the project with npm:
+
+```bash
+  npm install 5.onboarding-digital
+  cd 5.onboarding-digital
+```
+
+## 📘 Documentation
 
 - [How To Structure React Projects](https://blog.webdevsimplified.com/2022-07/react-folder-structure/)
 - [React Folder Structure - Github](https://github.com/WebDevSimplified/react-folder-structure/tree/main)
@@ -68,4 +68,4 @@ Start the server
 
 ## 🤝 Support
 
-A student project created at IT Academy, in the FrontEnd Angular/React course at Barcelona Activa.
+A project created at IT Academy, in the FrontEnd Angular/React course at Barcelona Activa.

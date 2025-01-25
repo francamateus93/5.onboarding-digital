@@ -1,66 +1,71 @@
-# 5. Onboarding Digital
+# Onboarding Digital
 
-**📄 Descripción**
+This project is an interactive application built with React, designed to guide users step by step through different concepts. Users can move forward, backward, and select specific steps using a clickable system. The steps are represented on dynamic cards with indicators that highlight the current progress and allow for smooth navigation.
 
-Este proyecto es una aplicación interactiva construida con React, diseñada para guiar a los usuarios paso a paso a través de diferentes conceptos. Los usuarios pueden avanzar, retroceder y seleccionar pasos específicos mediante un sistema clicables. Los pasos están representados en tarjetas dinámicas con indicadores que resaltan el progreso actual y permiten una navegación fluida.
+📄 Main Features:
 
-**📄 Características Principales**
+- Step navigation: Buttons to move forward and backward.
+- Visual indicator: Dots representing the steps of the tutorial.
+- Interactivity: Selection of steps by clicking on the dots.
+- Responsiveness: Adaptable design for mobile devices and tablets.
 
-- Navegación entre pasos: Botones para avanzar y retroceder.
-- Indicador visual: Bolitas que representan los pasos del tutorial.
-- Interactividad: Selección de pasos mediante clics en las bolitas.
-- Responsividad: Diseño adaptable para dispositivos móviles y tabletas.
+## 💻 Tecnologías Utilizadas
 
-**💻 Tecnologías Utilizadas**
+- React: Library for building user interfaces.
+- Styled Components: Library for applying styles to React components.
+- JavaScript: The main programming language of the project.
+- HTML5 y CSS3: For the basic structure and styles.
+- Vite: Fast development tool for modern web applications.
 
-- React: Biblioteca para la construcción de interfaces de usuario.
+## 📋 Environment Variables
 
-- Vite: Herramienta de desarrollo rápido para aplicaciones web modernas.
+To run this project, you need to have installed:
 
-- Styled Components: Biblioteca para aplicar estilos en componentes de React.
+- `Node.js` (version 14 or higher): JavaScript runtime environment.
+- `npm o yarn`: Package managers for installing dependencies.
+- `Vite`: Already configured as part of the project, but requires Node.js to function.
 
-- JavaScript (ES6+): Lenguaje de programación principal del proyecto.
+## 🛠️ Installation
 
-- HTML5 y CSS3: Para la estructura y estilos básicos.
+Install my-project with npm:
 
-**📋 Requisitos**
+```bash
+  npm install 5.onboarding-digital
+  cd 5.onboarding-digital
+```
 
-Para ejecutar este proyecto necesitas tener instalados:
+## ▶️ Run Locally
 
-- Node.js (versión 14 o superior): Entorno de ejecución para JavaScript.
-- npm o yarn: Gestores de paquetes para instalar dependencias.
-- Vite: Ya está configurado como parte del proyecto, pero requiere Node.js para funcionar.
+Clone the project
 
-**🛠️ Instalación**
+```bash
+  git clone https://github.com/francamateus93/5.onboarding-digital
+```
 
-- 1.Clonar el repositorio:
+Go to the project directory
 
-git clone https://github.com/francamateus93/5.onboarding-digital
+```bash
+  cd 5.onboarding-digital
+```
 
-- 2.Navega al directorio del proyecto:
+Install dependencies
 
-cd 5.onboarding-digital
+```bash
+  npm install
+```
 
-- 3.Instala las dependencias utilizando npm o yarn:
+Start the server
 
-npm install / yarn install
+```bash
+  npm run dev / npm run start
+```
 
-**▶️ Ejecución**
+## 📘 Acknowledgements
 
-Para iniciar el proyecto localmente:
+- [How To Structure React Projects](https://blog.webdevsimplified.com/2022-07/react-folder-structure/)
+- [React Folder Structure - Github](https://github.com/WebDevSimplified/react-folder-structure/tree/main)
+- [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
-- Asegúrate de que todos los archivos estén correctamente instalados y configurados.
+## 🤝 Support
 
-- 1.Inicia el servidor de desarrollo con Vite:
-
-npm run dev / yarn dev
-
-- 2.Abre tu navegador web e ingresa a la URL que aparece en la consola (generalmente http://localhost:3000).
-
-**🤝 Contribuciones**
-
-¡Este proyecto está abierto a contribuciones!
-
-# Notes
-
-- Un proyecto estudiantil creado en IT Academy, en el curso de FrontEnd Angular/React en Barcelona Activa.
+A student project created at IT Academy, in the FrontEnd Angular/React course at Barcelona Activa.
